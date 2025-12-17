@@ -10,6 +10,17 @@
   </a>
 </p>
 
+## Verify `.sql` watch (module1)
+
+```sh
+# Install dependencies (repo root)
+pnpm install
+
+# Run Jest in watch mode (uses your Docker Postgres on localhost:5432)
+PGHOST=localhost PGPORT=5432 PGUSER=postgres PGPASSWORD=password pnpm -C packages/module1 test:watch -- __tests__/basic.test.ts
+```
+
+Then edit and save `packages/module1/__tests__/watch.sql` (e.g. change `SELECT 1 AS num;` → `SELECT 2 AS num;`). Jest should rerun automatically; change it back to make the test pass again.
 
 ## Getting Started
 
