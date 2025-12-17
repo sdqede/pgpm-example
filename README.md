@@ -11,8 +11,11 @@
 pnpm install
 
 # Run Jest in watch mode (uses your Docker Postgres on localhost:5432)
-PGHOST=localhost PGPORT=5432 PGUSER=postgres PGPASSWORD=password pnpm -C packages/module1 test:watch -- __tests__/basic.test.ts
+cd packages/module1
+PGHOST=localhost PGPORT=5432 PGUSER=postgres PGPASSWORD=password pnpm test:watch -- __tests__/basic.test.ts
 ```
+
+Why `--watchAll` can be better for `.sql`: `jest --watch` tries to re-run only tests “related” to the changed file via Jest’s dependency graph. If your tests load SQL via `fs.readFileSync` (not `import`/`require`), Jest can’t reliably infer that relationship in larger suites. `jest --watchAll` re-runs the suite on any watched change, so `.sql` edits always trigger the tests.
 
 Then edit and save `packages/module1/__tests__/watch.sql` (e.g. change `SELECT 1 AS num;` → `SELECT 2 AS num;`). Jest should rerun automatically; change it back to make the test pass again.
 
