@@ -1,3 +1,5 @@
+import { readFileSync } from 'node:fs';
+import path from 'node:path';
 import { getConnections, PgTestClient } from 'pgsql-test';
 
 let db: PgTestClient;
@@ -22,8 +24,8 @@ afterEach(async () => {
 
 describe('first test', () => {
   it('should pass', async () => {
-    const result = await pg.query('SELECT 1 as num');
+    const sql = readFileSync(path.join(__dirname, 'watch.sql'), 'utf8');
+    const result = await pg.query(sql);
     expect(result.rows[0].num).toBe(1);
   });
 });
-
