@@ -26,7 +26,7 @@
       "required": true
     },
     {
-      "name": "repo1",
+      "name": "pgpm-example",
       "message": "Enter the repository name",
       "setFrom": "workspace.name",
       "required": true
@@ -67,4 +67,3 @@
     }
   ]
 }
-

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "author": "Eason <sdqede@gmail.com>",
   "description": "module1",
-  "homepage": "https://github.com/sdqede/repo1",
+  "homepage": "https://github.com/sdqede/pgpm-example",
   "license": "Apache-2.0",
   "publishConfig": {
     "access": "public",
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sdqede/repo1"
+    "url": "https://github.com/sdqede/pgpm-example"
   },
   "bugs": {
-    "url": "https://github.com/sdqede/repo1/issues"
+    "url": "https://github.com/sdqede/pgpm-example/issues"
   },
   "scripts": {
     "lint": "eslint . --fix",

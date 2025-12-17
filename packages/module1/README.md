@@ -5,10 +5,10 @@
 </p>
 
 <p align="center" width="100%">
-  <a href="https://github.com/sdqede/repo1/actions/workflows/ci.yml">
-    <img height="20" src="https://github.com/sdqede/repo1/actions/workflows/ci.yml/badge.svg" />
+  <a href="https://github.com/sdqede/pgpm-example/actions/workflows/ci.yml">
+    <img height="20" src="https://github.com/sdqede/pgpm-example/actions/workflows/ci.yml/badge.svg" />
   </a>
-   <a href="https://www.npmjs.com/package/module1"><img height="20" src="https://img.shields.io/github/package-json/v/sdqede/repo1?filename=packages%2Fmodule1%2Fpackage.json"/></a>
+   <a href="https://www.npmjs.com/package/module1"><img height="20" src="https://img.shields.io/github/package-json/v/sdqede/pgpm-example?filename=packages%2Fmodule1%2Fpackage.json"/></a>
 </p>
 
 ## Developing

@@ -1,12 +1,12 @@
-# repo1
+# pgpm-example
 
 <p align="center" width="100%">
   <img height="250" src="https://raw.githubusercontent.com/launchql/launchql/refs/heads/main/assets/outline-logo.svg" />
 </p>
 
 <p align="center" width="100%">
-  <a href="https://github.com/sdqede/repo1/actions/workflows/ci.yml">
-    <img height="20" src="https://github.com/sdqede/repo1/actions/workflows/ci.yml/badge.svg" />
+  <a href="https://github.com/sdqede/pgpm-example/actions/workflows/ci.yml">
+    <img height="20" src="https://github.com/sdqede/pgpm-example/actions/workflows/ci.yml/badge.svg" />
   </a>
 </p>
 
@@ -59,7 +59,6 @@ See [Prerequisites](https://launchql.com/learn/quickstart/prerequisites) for det
 ## Credits
 
 🛠 Built by LaunchQL — checkout [our github ⚛️](https://github.com/launchql)
-
 
 ## Disclaimer
 
