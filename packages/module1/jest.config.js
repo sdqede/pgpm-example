@@ -17,5 +17,5 @@ module.exports = {
       '\\.(?!(js|ts|sql)$)[^.]+$'
     ],
   
-    moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+    moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node', 'sql'],
   };
