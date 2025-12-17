@@ -1,0 +1,7 @@
+# module1 extension
+comment = 'module1 extension'
+default_version = '0.0.1'
+module_pathname = '$libdir/module1'
+requires = 'pgcrypto,uuid-ossp'
+relocatable = false
+superuser = false

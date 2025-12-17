@@ -1,0 +1,29 @@
+{
+  "name": "module1",
+  "version": "0.0.1",
+  "author": "Eason <sdqede@gmail.com>",
+  "description": "module1",
+  "homepage": "https://github.com/sdqede/repo1",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public",
+    "directory": "dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdqede/repo1"
+  },
+  "bugs": {
+    "url": "https://github.com/sdqede/repo1/issues"
+  },
+  "scripts": {
+    "lint": "eslint . --fix",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "pgsql-test": "^2.16.2",
+    "makage": "0.1.8"
+  }
+}

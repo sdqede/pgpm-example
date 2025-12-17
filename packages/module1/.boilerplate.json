@@ -1,0 +1,70 @@
+{
+  "type": "module",
+  "questions": [
+    {
+      "name": "Eason",
+      "message": "Enter author full name",
+      "setFrom": "workspace.author.name",
+      "defaultFrom": "git.user.name",
+      "required": true
+    },
+    {
+      "name": "sdqede@gmail.com",
+      "message": "Enter author email",
+      "setFrom": "workspace.author.email",
+      "defaultFrom": "git.user.email",
+      "required": true
+    },
+    {
+      "name": "module1",
+      "message": "Enter the module name",
+      "required": true
+    },
+    {
+      "name": "module1",
+      "message": "Enter the module description",
+      "required": true
+    },
+    {
+      "name": "repo1",
+      "message": "Enter the repository name",
+      "setFrom": "workspace.name",
+      "required": true
+    },
+    {
+      "name": "sdqede",
+      "message": "Enter your github username",
+      "setFrom": "workspace.organization.name",
+      "defaultFrom": "npm.whoami",
+      "required": true
+    },
+    {
+      "name": "public",
+      "message": "Module access?",
+      "options": [
+        "public",
+        "restricted"
+      ],
+      "type": "list",
+      "default": "public",
+      "required": true
+    },
+    {
+      "name": "Apache-2.0",
+      "message": "Choose a license",
+      "type": "list",
+      "options": [
+        "MIT",
+        "Apache-2.0",
+        "ISC",
+        "BSD-3-Clause",
+        "GPL-3.0",
+        "MPL-2.0",
+        "Unlicense"
+      ],
+      "setFrom": "workspace.license",
+      "required": true
+    }
+  ]
+}
+
