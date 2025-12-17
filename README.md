@@ -4,12 +4,6 @@
   <img height="250" src="https://raw.githubusercontent.com/launchql/launchql/refs/heads/main/assets/outline-logo.svg" />
 </p>
 
-<p align="center" width="100%">
-  <a href="https://github.com/sdqede/pgpm-example/actions/workflows/ci.yml">
-    <img height="20" src="https://github.com/sdqede/pgpm-example/actions/workflows/ci.yml/badge.svg" />
-  </a>
-</p>
-
 ## Verify `.sql` watch (module1)
 
 ```sh
